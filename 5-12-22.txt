@@ -1,0 +1,213 @@
+5-12-2022  Monday
+-----------------------
+Operator
+-----------
+Are the special symbols that performs on operation/Functionality on one are more operands
+
+Operands --Is a Variable or value
+
+Operator result may be in the form value or Boolean Value
+
+Types of operators
+----------------------
+1)Arithmetic Operator
+2)Relational Operator
+3)Logical Operator
+4)Membership Operator
+
+1)Arithmetic Operator
+------------------------
+a)Addition ---7+3 = 10
+b)Subtraction---7-3 = 4
+c)Multiplication ----7*3 = 21
+d)Division ----- 7/3 = 2.33 Decimal points
+e)Floor division--- 7//3 = 2 Whole number
+f)Modulus  ------7%3 = 1--Remainder 1
+g)Power -------2**3 = 8  
+
+
+2)Relational Operator ---output value will be in the form True or False
+----------------------
+a) Greater than > --- 7>3  True
+b) Greater than or equal --- >= 7 >= 5 True
+c) Less than < ------ 7<3 False
+d)Less than or equal ---7<=7 True
+e)Not equal ---7!=2 True
+d) Equal to --- a = 50  b = 40  a==b a=b
+ a = b  a = 40 a==b False
+
+Number conversion
+-------------------
+Binary Format --(0,1) 2 digits
+Decimal Format ---(0-9) 10 digits
+Hexadecimal Format (0-9 A=10,B=11,c=12,D=13,E=14,F=15) --16 digits
+
+ASCII ---American standard code for information Interchange
+
+Decimal to binary conversion
+------------------------------------
+65
+	Divider	divident	Reminder
+	2	65-32		1
+	2	32-16		0
+	2	16-8		0
+	2	8-4		0
+	2	4-2		0
+	2	1		0
+
+65(10) = 1000001
+
+A = 65   
+
+
+Binary to decimal
+---------------------
+1000001(2) = 65
+
+1*2^6+0*2^5+0*2^4+0*2^3+0*2^2+0*2^1+1*2^0
+
+64+0+0+0+0+0+1 = 65
+
+
+Decimal to Hexadecimal
+------------------------
+975(10) = 3CF
+
+	16 	975
+	16	60     15
+	16	3	12
+
+
+Hexadecimal to decimal 3CF
+-------------------------
+3*16^2+12*16^1+15*16^0
+768+192+15  = 975
+
+
+Hexadecimal to Binary Conversion
+-----------------------------------
+65 
+6- 0110
+5 -0101	
+	2	6
+	2	3	0
+	2	1	1	
+
+	2	5
+	2	2	1
+		1	0
+
+Binary to Hexadecimal
+--------------------
+0110 1101 -- 5D
+
+01111110  --- 7E
+1) split by 4 digits by left side  0111 1110 
+2)  0111 -- calculate based on 8421 code
+	8 4 2 1
+	a b c d
+	0 0 0 0
+	0 0 0 1 -- 1
+	0 0 1 0 -- 2
+	0 0 1 1 -- 3
+	0 1 0 1  --5
+        0 1 1 1 --- 7
+	1 1 1 0 ----14
+
+Conditional Statements
+-----------------------
+>Program consists of set of instructions/statements that executed from top to bottom
+> we can control the flow of execution based on condition --- Decisional Statements
+> we can control the set of statements that as to be executed for n times  --- looping Statement
+
+Conditional Statements
+---------------------------
+1)Decisional Statements
+2) looping Statement
+
+Decisional Statements
+----------------------
+a)simple if
+b)if else
+c)Nested if
+d)ladder if else
+
+
+Simple if
+----------
+if condition --True
+    -----------
+    ----------------
+
+b)if else
+if condition --True
+    -----------
+    ----------------
+else:
+    ---------------
+    ----------------
+
+input1 = 10
+input2 = 13
+op = input1+input2 = 23
+
+a = int(input("enter the value"))  --- user input
+diplay the output print function
+
+---input 2 numbers and find arithmetic operation ----
+a= int(input("Enter the value of 
+From karthikeyan to Everyone 03:46 PM
+a = int(input("enter the number 1 :"))
+b = int(input("enter the number 2 :"))
+print(a+b)
+print(a-b)
+print(a/b)
+print(a%b)
+print(a//b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
